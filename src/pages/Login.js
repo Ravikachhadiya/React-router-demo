@@ -23,7 +23,7 @@ export default function Login() {
         <div style={{ padding: 50 }}>
             <h1>Log In</h1>
             <div>
-                <label>User (anything will work)</label>
+                <label>Username (enter anything, it's fine)</label>
                 <input value={user} onChange={e => updateUser(e.target.value)} />
                 <button disabled={!user} onClick={handleLogin}>
                     Log In
